@@ -6,8 +6,8 @@ import { AutoImage } from "./auto-image"
 
 declare let module
 
-const bowser = require("../../screens/welcome/bowser.png")
-const morty = { uri: "https://rickandmortyapi.com/api/character/avatar/2.jpeg" }
+// const bowser = require("../../screens/welcome/bowser.png")
+// const morty = { uri: "https://rickandmortyapi.com/api/character/avatar/2.jpeg" }
 
 storiesOf("AutoImage", module)
   .addDecorator((fn) => <StoryScreen>{fn()}</StoryScreen>)
